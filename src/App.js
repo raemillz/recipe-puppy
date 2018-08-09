@@ -18,7 +18,7 @@ export default class App extends Component {
     }
 
     performSearch = (query = '') => {
-        fetch(`https://cors-anywhere.herokuapp.com/http://www.recipepuppy.com/api/?q=${query}`)
+        fetch(`https://cryptic-headland-94862.herokuapp.com/http://www.recipepuppy.com/api/?q=${query}`)
             .then(response => response.json())
             .then(responseData => {
                 this.setState({
