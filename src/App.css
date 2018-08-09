@@ -160,7 +160,7 @@ button {
   Media Queries
 ==================================== */
 
-@media (min-width: 0) and (max-width: 480px) {
+@media (min-width: 0) and (max-width: 399px) {
     .recipe-list li {
         text-align: center;
         margin: 20px 0 0;
@@ -168,7 +168,7 @@ button {
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 399px) {
     .recipe-list li {
         text-align: center;
     }
