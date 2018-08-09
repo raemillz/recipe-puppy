@@ -32,9 +32,6 @@ export default class SearchForm extends Component {
     this.props.onSearch(this.query.value);
   }
 
-
-
-
     render() {
       return (
         <form className="search-form" onSubmit={this.handleSubmit} >
